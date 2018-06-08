@@ -1,0 +1,8 @@
+
+1º-> entrar na pasta ethereum do projeto
+
+geth --datadir=./chaindata/
+
+/Applications/Mist.app/Contents/MacOS/Mist --rpc /Users/eduardosilva/Desktop/criptografia/trab/projeto/ethereum/chaindata/geth.ipc --swarmurl="http://swarm-gateways.net"
+
+geth attach ./chainData/geth.ipc
